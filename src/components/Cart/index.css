@@ -1,0 +1,41 @@
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  background: url('https://res.cloudinary.com/dhscilqq8/image/upload/v1687458690/istockphoto-1226107272-612x612_tovgt0.jpg')
+    center/cover no-repeat;
+}
+
+.button {
+  background-color: #ccc;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: #ff0000;
+  color: #fff;
+}
+
+.ul-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-self: center;
+  justify-items: center;
+  flex-wrap: wrap;
+  color: #fff;
+  scroll-behavior: auto;
+}
+.empty-cart {
+  margin-top: 20px;
+  font-size: 24px;
+  color: white;
+}
